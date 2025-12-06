@@ -1,0 +1,5 @@
+campaign_id,name,channel,status,roi,ctr,conversion_rate,total_spend,total_revenue,total_conversions
+FB_001,Summer Sale 2024,Facebook,active,220.00%,2.56%,5.62%,"R51,000.00","R163,200.00",1080
+FB_002,Brand Awareness,Facebook,active,194.05%,2.02%,5.28%,"R25,200.00","R74,100.00",570
+GOOGLE_001,Product Launch,Google Ads,active,145.00%,2.67%,6.07%,"R73,800.00","R180,810.00",2040
+EMAIL_001,Newsletter Campaign,Email,active,394.44%,6.22%,7.86%,"R10,800.00","R53,400.00",1320

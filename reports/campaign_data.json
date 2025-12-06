@@ -1,0 +1,79 @@
+{
+  "generated_at": "2025-12-06T19:25:32.348610",
+  "total_campaigns": 4,
+  "campaigns": [
+    {
+      "campaign_id": "FB_001",
+      "name": "Summer Sale 2024",
+      "channel": "Facebook",
+      "start_date": "2024-06-01",
+      "end_date": "2024-12-31",
+      "budget": 10000.0,
+      "status": "active",
+      "metrics": {
+        "roi_percent": 220.0,
+        "ctr_percent": 2.56,
+        "conversion_rate_percent": 5.62,
+        "total_spend_rand": 51000.0,
+        "total_revenue_rand": 163200.0,
+        "total_conversions": 1080
+      }
+    },
+    {
+      "campaign_id": "FB_002",
+      "name": "Brand Awareness",
+      "channel": "Facebook",
+      "start_date": "2024-05-15",
+      "end_date": "2024-12-31",
+      "budget": 5000.0,
+      "status": "active",
+      "metrics": {
+        "roi_percent": 194.05,
+        "ctr_percent": 2.02,
+        "conversion_rate_percent": 5.28,
+        "total_spend_rand": 25200.0,
+        "total_revenue_rand": 74100.0,
+        "total_conversions": 570
+      }
+    },
+    {
+      "campaign_id": "GOOGLE_001",
+      "name": "Product Launch",
+      "channel": "Google Ads",
+      "start_date": "2024-07-01",
+      "end_date": "2024-12-31",
+      "budget": 15000.0,
+      "status": "active",
+      "metrics": {
+        "roi_percent": 145.0,
+        "ctr_percent": 2.67,
+        "conversion_rate_percent": 6.07,
+        "total_spend_rand": 73800.0,
+        "total_revenue_rand": 180810.0,
+        "total_conversions": 2040
+      }
+    },
+    {
+      "campaign_id": "EMAIL_001",
+      "name": "Newsletter Campaign",
+      "channel": "Email",
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "budget": 2000.0,
+      "status": "active",
+      "metrics": {
+        "roi_percent": 394.44,
+        "ctr_percent": 6.22,
+        "conversion_rate_percent": 7.86,
+        "total_spend_rand": 10800.0,
+        "total_revenue_rand": 53400.0,
+        "total_conversions": 1320
+      }
+    }
+  ],
+  "summary": {
+    "total_spend_rand": 160800.0,
+    "total_revenue_rand": 471510.0,
+    "overall_roi_percent": 193.23
+  }
+}
