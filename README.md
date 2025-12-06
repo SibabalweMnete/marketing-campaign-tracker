@@ -31,21 +31,54 @@
 
 ---
 
-## 🛠️ Installation & Usage
+## � Documentation
 
-### Setup
+**👉 [START_HERE.md](START_HERE.md)** - 5-minute quick start  
+**📖 [INDEX.md](INDEX.md)** - Complete documentation index  
+**✅ [INTEGRATION_CHECKLIST.md](INTEGRATION_CHECKLIST.md)** - Add real data (pick your platform)  
+**🚀 [DEPLOYMENT.md](DEPLOYMENT.md)** - Deploy to production (6 options)  
+**🔧 [TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common issues & solutions  
+
+See [INDEX.md](INDEX.md) for all 20 documentation files.
+
+---
+
+## �🛠️ Installation & Usage
+
+### Quick Start (5 minutes)
+```bash
+# Setup
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+
+# Run demo
+python3 main.py --auto
+
+# View results
+python3 main.py --dashboard
+```
+
+### Full Commands
 ```bash
 # Initialize the database
-python main.py --init
+python3 main.py --init
 
 # Collect campaign data from all channels
-python main.py --collect
+python3 main.py --collect
 
 # Generate full reporting suite
-python main.py --report
+python3 main.py --report
 
-# Run everything at once (collect + report)
-python main.py --auto
+# View dashboard
+python3 main.py --dashboard
+
+# Run everything at once (collect + report + insights)
+python3 main.py --auto
+```
+
+### See All Options
+```bash
+python3 main.py --help
 ```
 
 ### Dashboard & Analytics

@@ -48,6 +48,24 @@ coverage.xml
 *.cover
 *.py.cover
 .hypothesis/
+
+# Environment variables and credentials (IMPORTANT!)
+.env
+.env.local
+.env.*.local
+google_ads_config.yaml
+
+# Database files (generated)
+data/campaigns.db
+test_*.db
+
+# Reports and exports
+reports/daily/
+*.csv
+!requirements.txt
+
+# CI/CD and deployment
+.github/workflows/ci-cd.yml
 .pytest_cache/
 cover/
 
